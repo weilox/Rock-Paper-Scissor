@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+* {
+    margin: 0;padding: 0;
+    transition: .3s;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #111;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.logo span {
+    color: gold;
+}
+
+.play {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    padding: 0px 30px 0px 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.play:hover {color: #ccc;}
+
+.user {
+    background-image: url(user.png);
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 100px;
+}
+.robot {
+    background-image: url(robot.png);
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info h1{
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: bold;
+    display: none;
+}
+.win {color: greenyellow;}
+.lose {color: red;}
+.draw {color: blue;}
+
+#userscore {
+    font-size: 20px;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+}
+#robotscore {
+    font-size: 20px;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
